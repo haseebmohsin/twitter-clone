@@ -1,0 +1,466 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+ul {
+	list-style: none;
+	margin: 0 auto;
+}
+li{
+	display: block;
+}
+a {
+	text-decoration: none;
+	font-family: "Segoe UI",Arial,sans-serif;
+}
+p {
+	text-align: justify;
+	font-family: "Segoe UI",Arial,sans-serif;
+}
+hr {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	height: 1px;
+}
+
+/********** body start **********/
+
+#col-1 {
+	position: fixed;
+	float: left;
+	max-width: 23%;
+	min-width: 23%;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#col-1 #header-icon img {
+	height: 25px;
+	width: 30px;
+	margin-top: 15px;
+}
+#col-1 nav {
+	margin-left: 70px;
+}
+#col-1 nav .nav-icons-and-text {
+	display: flex;
+	margin: 25px 0px;
+}
+#col-1 nav .nav-icons-and-text img {
+	height: 30px;
+	width: 30px;
+	border-radius: 100%;
+}
+#col-1 nav img {
+	margin-right: 20px;
+}
+#col-1 nav span {
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-size: 19px;
+	font-weight: bold;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #F5F8FA;
+	min-width: 200%;
+	z-index: 1;
+}
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.show {
+	display: block;
+}
+
+/*-------Dropdown Menu End-------*/
+
+#col-1 nav a {
+	color: black;
+}
+#col-1 nav a:hover {
+	color: blue;
+}
+#col-1 #col-1-tweet-button {
+	margin-left: 60px;
+	background-color: #1A91DA;
+	color: white;
+	padding: 15px;
+	border-radius: 130px;
+	width: 65%;
+	border: none;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+/*.......... col-2 CSS .......... */
+
+#col-2 {
+	background-color: #E6ECF0;
+	position: absolute;
+	left: 23%;
+	max-width: 44%;
+	min-width: 44%;
+	border-left: 1px solid #E6ECF0;
+	border-right: 1px solid #E6ECF0;
+}
+#col-2-container {
+	position: relative;
+}
+#col-2 #col-2-container #col-2-header {
+	position: fixed;
+	background-color: white;
+	z-index: 1;
+	height: 55px;
+	width: 44%;
+}
+#col-2 #col-2-header h1 {
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-size: 20px;
+	color: black;
+	margin-top: 13px;
+	margin-left: 16px;
+}
+#col-2 #tweet-area {
+	background-color: white;
+	padding: 0px 15px;
+	margin-top: 54px;
+	margin-bottom: 8px;
+	overflow: auto;
+}
+#col-2 #tweet-area #profile_img {
+	float: left;
+	padding: 5px 2px;
+	height: 50px;
+	width: 50px;
+	border-radius: 100px;
+	margin-top: 7px;
+	margin-right: 5px;
+}
+#col-2 #tweet-area #tweet-area-input-tweet {
+	padding: 20px 1px;
+}
+#col-2 #tweet-area textarea {
+	border: none;
+	resize: none;
+	width: 87%;
+	height: 34px;
+	font-size: 19px;
+	font-family: "Segoe UI",Arial,sans-serif;
+	outline: none;
+}
+#col-2 #tweet-area #tweet-area-footer #img_up {
+	height: 25px;
+	width: 25px;
+	cursor: pointer;
+	margin-left: 60px;
+	margin-right: 10px;
+}
+#col-2 #tweet-area #tweet-area-footer #img_smilye{
+	height: 25px;
+	width: 115px;
+}
+#col-2 #tweet-area #tweet-area-footer #img_compose{
+	margin-left: 180px;
+}
+
+#col-2 #tweet-area #tweet-area-footer #col-2-tweet-button {
+	float: right;
+	background-color: #8ED0F9;
+	color: white;
+	padding: 12px;
+	border-radius: 130px;
+	width: 13%;
+	border: none;
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-top: 4px;
+	cursor: pointer;
+}
+#col-2 #tweets {
+	background-color: white;
+	padding: 4px 15px;
+	border-bottom: 1px solid #E6ECF0;
+	padding-bottom: 5px;
+}
+#col-2 #tweets:hover{
+	background-color: #F5F8FA;
+}
+#col-2 #tweets #tweets-profile-pic img {
+	float: left;
+	height: 50px;
+	width: 50px;
+	border-radius: 100px;
+	margin-top: 5px;
+}
+#col-2 #tweets #tweets-contents {
+	margin-left: 12%;
+	max-width: 88%;
+	min-width: 88%;
+	min-height: 120px;
+	margin-top: 5px;
+}
+#col-2 #tweets #tweets-contents #tweets-contents-data{
+	word-wrap: break-word;
+
+}
+#col-2 #tweets #tweets-contents #tweets-contents-data h3 {
+	font-family: "Segoe UI",Arial,sans-serif;
+	color: #14171A;
+	font-size: 15px;
+}
+#col-2 #tweets #tweets-contents #tweets-contents-data h3:hover{
+	text-decoration: underline;
+}
+#col-2 #tweets #tweets-contents #tweets-contents-data #dif-h3 {
+	color: #657786;
+	font-weight: normal;
+	text-decoration: none;
+}
+#col-2 #tweets #tweets-contents #tweets-contents-data p {
+	display: block;
+}
+#col-2 #tweets #tweets-contents #tweets-contents-data img {
+	max-height: 400px;
+	min-height: 200px;
+	max-width: 100%;
+	min-width: 100%;
+	padding: 5px;
+	margin: 10px 0px 5px 0px;
+	border-radius: 15px;
+}
+#col-2 #tweets #tweets-contents #tweets-content-footer img {
+	height: 20px;
+	width: 20px;
+}
+#tweets-content-footer #comment-count{
+	margin-top: 2px;
+	margin-left: 7px;
+	color: gray;
+}
+#tweets-content-footer #comment-count:hover{
+	color: blue;
+}
+#tweets-content-footer #retweet-count{
+	margin-top: 2px;
+	margin-left: 7px;
+	color: gray;
+}
+#tweets-content-footer #retweet-count:hover{
+	color: green;
+}
+#tweets-content-footer #like-count{
+	margin-top: 2px;
+	margin-left: 7px;
+	color: gray;
+}
+#tweets-content-footer #like-count:hover{
+	color: red;
+}
+
+/*.......... col-3 CSS .......... */
+
+#col-3 {
+	float: right;
+	max-width: 31%;
+	min-width: 31%;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin-top: 7px;
+}
+#col-3 #search {
+	background-color: white;
+	max-width: 24%;
+}
+#col-3 #search #search_field {
+	position: fixed;
+	padding: 13px;
+	border-bottom-right-radius: 80px;
+	border-top-right-radius: 80px;
+	width: 21%;
+	margin-left: 3%;
+	background-color: #E6ECF0;
+	border: none;
+	outline: none;
+	z-index: 1;
+}
+#col-3 #search #search_button {
+	position: fixed;
+	background-color: #E6ECF0;
+	color: white;
+	padding: 12px;
+	border-bottom-left-radius: 80px;
+	border-top-left-radius: 80px;
+	border: none;
+	font-size: 15px;
+	outline: currentColor;
+	cursor: pointer;
+	z-index: 1;
+}
+#col-3 #trends {
+	background-color: #F5F8FA;
+	position: relative;
+	margin-top: 50px;
+	max-width: 84%;
+	border-radius: 15px;
+}
+#col-3 #trends #trends-body a {
+	color: black;
+}
+#col-3 #trends p{
+	color: #657786;
+	padding: 0 15px;
+	font-size: 13px;
+	margin-top: 8px;
+}
+#col-3 #trends h2 {
+	padding: 0 15px;
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-size: 15px;
+}
+#col-3 #to-follow-list {
+	background-color: #F5F8FA;
+	margin-top: 15px;
+	max-width: 84%;
+	border-radius: 15px;
+}
+#col-3 #to-follow-list #to-follow-list-body {
+	padding: 0px 15px;
+	display: flex;
+}
+#col-3 #to-follow-list #to-follow-list-body a {
+	color: black;
+}
+#col-3 #to-follow-list #to-follow-list-body #to-follow-list-profile {
+	max-width: 10%;
+	width: 10%;
+}
+#col-3 #to-follow-list #to-follow-list-body #to-follow-list-profile img {
+	margin-top: 7px;
+	height: 40px;
+	width: 40px;
+	border-radius: 100px;
+}
+#col-3 #to-follow-list #to-follow-list-body #to-follow-list-names {
+	max-width: 65%;
+	min-width: 65%;
+	width: 65%;
+}
+#col-3 #to-follow-list #to-follow-list-body #to-follow-list-button {
+	max-width: 25%;
+	width: 25%;	
+}
+#col-3 #to-follow-list #to-follow-list-body #to-follow-list-button input {
+	background-color: white;
+	color: #1DA1F2;
+	border: 1px solid #8ED0F9;
+	border-radius: 100px;
+	padding: 0px 15px;
+	font-weight: bold;
+	font-size: 15px;
+	outline: currentColor;
+	cursor: pointer;
+	width: 80px;
+	height: 31px;
+	margin-top: 7px;
+}
+#col-3 #to-follow-list h2 {
+	padding: 10px 15px;
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-size: 15px;
+}
+
+/********** footer start **********/
+
+footer {
+	max-width: 100%;
+	width: 100%;
+}
+#footer-menu{
+	padding: 10px 0px;
+	display: inline-block;
+}
+#footer-menu ul {
+	font-family: "Segoe UI",Arial,sans-serif;
+}
+#footer-menu li {
+	margin: 7px;
+	color: #aab8c2;
+	font-size: 13px;
+	display: inline-block;
+}
+#footer-menu a {
+	color: #aab8c2;
+}
+#footer-menu a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+@media screen and (max-width: 1250px) {
+
+	#col-1 nav span {
+	    display: none;
+	}
+	#col-1 {
+		width: 12%;
+		max-width: 12%;
+		min-height: 12%;
+	}
+	#col-2 {
+		position: absolute;
+		left: 12%;
+		min-width: 55%;
+	}
+	#col-2 #col-2-container #col-2-header {
+		width: 55%;
+	}
+	#col-1 #col-1-tweet-button {
+		width: 50px;
+		height: 50px;
+		font-size: 0px;
+	}
+}
+@media screen and (max-width: 1000px) {
+
+	#col-3, #col-2 #tweet-area {
+	    display: none;
+	}
+	#col-2 {
+		position: absolute;
+		left: 15%;
+		min-width: 73%;
+		overflow: visible;
+	}
+	#col-2 #tweets {
+		position: absolute;
+		top: 56px;
+	}
+	#col-2 #col-2-container #col-2-header {
+		width: 73%;
+	}
+
+	#col-1 {
+		min-width: 15%;
+		max-width: 15%;
+	}
+	#col-1 nav {
+		margin-left: 30px;
+		max-width: 30px;
+	}
+	#col-1 #col-1-tweet-button {
+		margin-left: 20px;
+	}
+}

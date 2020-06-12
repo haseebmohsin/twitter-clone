@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+}
+a, h1, p, span{
+	font-family: "Segoe UI",Arial,sans-serif;
+}
+
+header {
+display: flex;
+background-color: white;
+height: 46px;
+}
+
+nav{
+margin-left: 16%;
+}
+
+header img {
+height: 18px;
+width: 20px;
+margin-right: 10px;
+}
+
+ul {
+list-style: none;
+display: flex;
+margin-top: 13px;
+}
+
+li #about {
+margin-left: 22px;
+}
+
+a {
+color: #66757F;
+font-size: 13px;
+margin-bottom: 15px;
+text-decoration: none;
+}
+
+li a{
+	font-weight: bold;
+}
+
+li a:hover {
+color: #1DA1F2;
+border-bottom: 65px #1DA1F2;
+}
+
+#login{
+margin-top: 10px;
+margin-left: 19%;
+max-width: 61%;
+background-color: white;
+border: 1px solid #E6ECF0;
+}
+
+#login h1 {
+font-size: 24px;
+margin-bottom: 13px;
+}
+
+form {
+padding: 33px 0px 0px 120px;
+}
+
+#login span {
+margin: 18px 0 0 3px;
+font-size: 14px;
+}
+
+#login a {
+margin-left: 8px;
+color: #43A6E5;
+font-size: 14px;
+}
+
+#login input {
+padding: 5px;
+display: block;
+margin-bottom: 15px;
+border: 1px solid #E6ECF0;
+}
+
+#login-button {
+background-color: #43A6E5;
+color: white;
+border: 1px solid #8ED0F9;
+border-radius: 100px;
+padding: 0px 15px;
+font-weight: bold;
+font-size: 15px;
+outline: currentColor;
+cursor: pointer;
+width: 75px;
+height: 35px;
+margin-top: 7px;
+margin-bottom: 15px;
+}
+
+#footer {
+background-color: #F5F8FA;
+height: 100px;
+}
+
+#footer-body {
+padding: 20px 0px 0px 120px;
+}
+
+#footer-body p {
+color: #8695A1;
+font-size: 14px;
+}

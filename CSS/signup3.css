@@ -1,0 +1,84 @@
+body{
+	display: inline;
+	background-color: #B2B2B2; 
+	font-size: 15px;
+	
+}
+h1{
+font-family: system-ui;
+font-size: 23px;
+margin-left: 25px;
+}
+p{
+	color: #657786;
+	font-family: sans-serif;
+}
+.form{
+	display: inline;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 590px;
+	height: 600px;
+	background: #fff;
+	border-radius: 20px;
+	float: center;
+
+
+}
+
+.head img{
+
+   margin-left: 250px;
+   margin-right: auto; 
+
+	height: 17%;
+	width: 16%
+	
+}
+.head a{
+	float: right;
+	color: #33A5FF ;
+	background-color: none;
+	padding: 7px 15px;
+	margin: 10px;
+	size: 20px bold;
+	text-decoration-style: bold;
+
+    position:relative;
+}
+#profile{
+	height: 170px;
+	width: 170px;
+	margin-left: 195px;
+	margin-top: 60px;
+}
+
+.head #btn{
+	float: right;
+	color: white;
+	background-color: #33A5FF;
+	padding: 7px 15px;
+	margin: 10px;
+	border-radius: 16px;
+	width: 70px;
+	border: none;
+    position:relative;
+    cursor: pointer;
+}
+
+#file{
+	margin-left: 200px;
+}
+.image-upload input{
+	display: none;
+}
+#camera{
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	left: 266px;
+	top: 285px;
+	cursor: pointer;
+}
